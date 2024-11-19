@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="products.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCl7F3URup7S4Of3R3cJQLk535vNnUQRzg&callback=initMap"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo" class="logo-img">
+                </div>
+                <div class="search-container">
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search for products...">
+                    <button id="searchButton" class="search-button">Search</button>
+                </div>
+                <nav>
+                    <ul id="menu-items">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="checkout.html">Featured</a></li>
+                        <li><a href="contacttk.html">Review</a></li>
+                        <li><a href="register.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="icon-container">
+                    <img src="images/cart.png" alt="cart" class="cart-img">
+                    <img src="images/menu.png" alt="menu" class="menu-icon" onclick="menutoggle()">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    
+
+    <!-- Product Section -->
+    <div class="products">
+        <div class="small-container">
+            <h2 class="title">Our Products</h2>
+            <div class="product-row">
+                <!-- Product 1 -->
+                <div class="product-box">
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbookair-og-202402?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1707414684423" alt="Product 1">
+                    <p></p>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-box">
+                    <img src="image2.jpg" alt="Product 2">
+                    <p>Product 2 Description</p>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-box">
+                    <img src="image3.jpg" alt="Product 3">
+                    <p>Product 3 Description</p>
+                </div>
+            </div>
+            <div class="product-row">
+                <!-- Product 4 -->
+                <div class="product-box">
+                    <img src="image4.jpg" alt="Product 4">
+                    <p>Product 4 Description</p>
+                </div>
+                <!-- Product 5 -->
+                <div class="product-box">
+                    <img src="image5.jpg" alt="Product 5">
+                    <p>Product 5 Description</p>
+                </div>
+                <!-- Product 6 -->
+                <div class="product-box">
+                    <img src="image6.jpg" alt="Product 6">
+                    <p>Product 6 Description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-col-1">
+            <h3>About Us</h3>
+            <p>We offer the best products for you.</p>
+        </div>
+        <div class="footer-col-2">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="footer-col-3">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
